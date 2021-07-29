@@ -14,11 +14,40 @@
       rel="stylesheet"
     />
 
-    <title>Random Color Generator</title>
+    <title>Color Generator</title>
   </head>
   <body>
-    <h1>Random Color Generator</h1>
-    <input type="button" value="Generate" id="button" />
+    <h1>Color Generator</h1>
+
+    <label>
+      <p>Red Range:</p>
+      <input id="range-red" step="1" type="range" min="0" max="255" value="0" />
+    </label>
+
+    <label>
+      <p>Green Range:</p>
+      <input
+        id="range-green"
+        step="1"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+      />
+    </label>
+
+    <label>
+      <p>Blue Range:</p>
+      <input
+        id="range-blue"
+        step="1"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+      />
+    </label>
+
     <div id="random-color-box"></div>
     <div id="table"></div>
     <script src="scripts.js"></script>

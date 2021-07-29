@@ -22,7 +22,7 @@ h1 {
 
 input {
   font-family: "Poor Story", cursive;
-  margin: 10px;
+  margin: 100px;
   padding: 3px;
 }
 
@@ -46,4 +46,29 @@ input {
 
 #button {
   cursor: pointer;
+}
+
+p,
+label {
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+#random-color-box {
+  width: 400px;
+  height: 490px;
+  margin: 30px;
+  background-color: black;
+}
+
+label input,
+label p {
+  margin: 10px;
+}
+
+label input {
+  width: 400px;
 }
